@@ -11,5 +11,13 @@ public interface UserCustomRepository {
 
     List findByUserName(String userName);
 
+    List findAll();
+
+    UserEntity findById(Long id);
+
+    void delete(UserEntity entity);
+
     void save(UserEntity entity) throws Exception;
+
+    void update(UserEntity entity) throws Exception;
 }

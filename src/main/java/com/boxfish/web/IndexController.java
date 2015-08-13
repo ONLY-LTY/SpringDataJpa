@@ -27,8 +27,12 @@ public class IndexController {
 		return user;
 	}
 	@RequestMapping(value = "/get")
-	public List get(){
+	public List getByUserName(){
 		return userCustomRepository.findByUserName("LTY");
+	}
+	@RequestMapping(value = "/getId")
+	public UserEntity getById(){
+		return userCustomRepository.findById(2L);
 	}
 	@RequestMapping(value = "add")
 	public String add(){
