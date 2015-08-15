@@ -11,7 +11,8 @@ import java.util.List;
  */
 
 /**
- * CrudRepository  提供了基本的增删改查 我们可以直接继承就好了 如果我们不想暴露一些的借口 可以自定义Repository
+ * CrudRepository  提供了基本的增删改查 我们可以直接继承就好了
+ * 如果我们不想暴露一些的借口 可以自定义Repository
  */
 @Repository
 public interface UserRepository extends CrudRepository<UserEntity,Long> {

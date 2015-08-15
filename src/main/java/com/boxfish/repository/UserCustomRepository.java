@@ -1,6 +1,7 @@
 package com.boxfish.repository;
 
 import com.boxfish.entity.UserEntity;
+import org.springframework.data.repository.Repository;
 
 import java.util.List;
 

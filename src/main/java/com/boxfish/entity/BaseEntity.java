@@ -1,5 +1,6 @@
 package com.boxfish.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.GeneratedValue;
@@ -8,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-public abstract class BaseEntity {	
+public abstract class BaseEntity{
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	protected long id;

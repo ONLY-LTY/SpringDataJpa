@@ -10,6 +10,7 @@ import java.util.List;
 
 /**
  * Created by LTY on 15/8/13.
+ * 自定义Repository
  */
 @Repository
 @Transactional
